@@ -1,0 +1,33 @@
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid var(--gray);
+  font: inherit;
+  border-radius: 2px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline-color: var(--green);
+}
+
+.form-control input.error {
+  outline-color: var(--red);
+  border-color: var(--red);
+}
+
+.form-control div.error {
+  color: var(--red);
+  font-size: 0.75rem;
+}
