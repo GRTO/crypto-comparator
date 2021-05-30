@@ -1,7 +1,5 @@
-const App = () => (
-  <h1>
-    Crypto Comparator
-  </h1>
-);
+import { ComparatorRouter } from "./routes/Router";
+
+const App = () => <ComparatorRouter />;
 
 export default App;
